@@ -2,6 +2,12 @@ h1. igenome_download
 
 h3. Simple script to bulk download from Illumina's "iGenome":https://my.illumina.com/Message/iGenome/ 
 
+h2. Features
+
+* Configure which genomes you want to grab
+* uses ftp modification time to determine if new version is available 
+* cleans up after itself by removing tar.gz files after extraction
+
 h2. To Use
 
 * Look at the current genomes being downloaded by the script.
