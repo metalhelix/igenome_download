@@ -1,0 +1,18 @@
+h1. igenome_download
+
+h3. Simple script to bulk download from Illumina's "iGenome":https://my.illumina.com/Message/iGenome/ 
+
+h2. To Use
+
+* Look at the current genomes being downloaded by the script.
+* Add and remove as you see fit
+* copy script to base directory where you want the downloads to live
+* run ./igenome_download.rb
+
+h2. Prerequisites 
+
+Tested with @ruby 1.9.3@
+
+if using @ruby 1.8@, some tweaking might be necessary. 
+
+
